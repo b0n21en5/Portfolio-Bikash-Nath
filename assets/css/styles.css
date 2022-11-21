@@ -1,0 +1,127 @@
+header{
+    margin: 0px;
+    text-align: right;
+    padding: 20px;
+    background-color: #f2f8f9;
+    font-size: 18px;
+    /* margin-bottom: 1px; */
+}
+
+.pp{
+    text-decoration: underline;
+    
+}
+
+
+h1{
+    margin-top: 50px;
+    margin-left: 90px;
+    font-size: 50px;
+    color: rgb(15, 7, 62);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    backface-visibility: inherit;
+    background-color: rgb(213, 213, 213);
+}
+
+
+p{
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: rgb(19, 17, 17);
+}
+
+ul{
+    color: red;
+}
+
+a{
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.5s;
+}
+
+a:hover{
+    color: #36d9f6;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    
+}
+
+img[src]{
+    align-content: center;
+    width: 400px;
+    height: 500px;
+}
+
+
+
+/* social icon starts */
+.socials{
+    position: relative;
+    margin-top: 9rem;
+}
+
+.socials .social-icons{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.socials  .social-icons li{
+    display: inline-block;
+    margin-bottom: 14px;
+}
+
+.social-icons a{
+    font-size: 2rem;
+    display: inline-block;
+    line-height: 44px;
+    color: #f1f2f3;
+    background-color: #10319f;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    border-radius: 100%;
+    margin-right: 8px;
+    -webkit-transition: all 0.2s linear;
+    -o-transition:all 0.2s linear;
+    transition:all 0.2s linear;
+
+}
+
+
+.social-icons a:active, .social-icons a:focus, .social-icons a:hover{
+    color: #fff;
+    background-color: azure;
+}
+
+.social-icons a.twitter:hover{
+    background-color: rgb(60, 205, 231);
+}
+
+.social-icons a.linkedin:hover{
+    background-color: #493eeb;
+}
+
+.social-icons a.github:hover{
+    background-color: #101010;
+}
+
+.social-icons a.gmail:hover{
+    background-color: rgb(73, 13, 13);
+}
+
+.social-icons a.instagram:hover{
+    background-color: rgb(226, 24, 179);
+}
+
+/* social-icon ends--*/
+
+
